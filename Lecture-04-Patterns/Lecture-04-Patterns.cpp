@@ -1,3 +1,11 @@
+/*
+ * Problem: Triangle Star Pattern
+ * Source: CodeHelp Lecture 04
+ * Logic: Outer loop handles rows (i), inner loop prints stars equal to row index (j <= i).
+ * Time Complexity: O(n^2) | Space Complexity: O(1)
+ */
+
+
 #include <iostream>
 using namespace std;
 
