@@ -31,6 +31,9 @@ Repository tracking my daily progression through C++ fundamentals, Data Structur
 
 ## 📂 Repository Organization
 
+## 📂 Repository Organization
+
+```text
 cpp-dsa-journey/
 ├── Lecture-02-First Program In C++/
 ├── Lecture-03-If-else,While loop/
@@ -49,3 +52,4 @@ cpp-dsa-journey/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
