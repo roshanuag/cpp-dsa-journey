@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Function declarations
 int add(int a, int b) { return a + b; }
 int subtract(int a, int b) { return a - b; }
 int multiply(int a, int b) { return a * b; }
 int divide(int a, int b) { return (b != 0) ? (a / b) : 0; }
 
-// Switch statement inside a driver function
+
 void executeOperation(int a, int b, char op) {
     switch (op) {
         case '+':

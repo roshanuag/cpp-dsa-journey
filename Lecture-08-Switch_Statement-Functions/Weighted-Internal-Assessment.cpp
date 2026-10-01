@@ -20,14 +20,14 @@ int main() {
     cout << "Enter Attendance percentage (out of 100): ";
     cin >> attendance;
 
-    // Validation check
+   
     if (theory < 0 || theory > 100 || practical < 0 || practical > 100 ||
         assignment < 0 || assignment > 100 || attendance < 0 || attendance > 100) {
         cout << "Error: All marks and attendance must be between 0 and 100." << endl;
         return 1;
     }
 
-    // Calculations: Theory 40%, Practical 30%, Assignment 20%, Attendance 10%
+  
     weighted_total = (theory * 0.40f) + (practical * 0.30f) + 
                      (assignment * 0.20f) + (attendance * 0.10f);
 

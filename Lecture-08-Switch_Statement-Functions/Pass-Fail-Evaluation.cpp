@@ -10,7 +10,7 @@ int main() {
     cout << "Enter marks for 4 subjects (out of 100 each): ";
     cin >> sub1 >> sub2 >> sub3 >> sub4;
 
-    // Check individual subject cutoffs (minimum 40 marks to pass)
+
     if (sub1 < 40.0f || sub2 < 40.0f || sub3 < 40.0f || sub4 < 40.0f) {
         cout << "\nResult: Failed (scored below 40 in one or more subjects)\n";
     } else {
