@@ -11,6 +11,8 @@ int main(){
         case '1': switch(num){
                     case 1 : cout<< "Value of num is "<< num << endl;
                             break;
+                    case 2: cout<< "YOOO" << endl;
+                            break;
         }
                 break;
 
