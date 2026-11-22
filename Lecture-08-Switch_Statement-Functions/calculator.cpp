@@ -12,11 +12,15 @@ int main(){
 
     switch(op){
         case '+': cout<<a<<" + "<<b<<" = "<<a+b<<endl; break;
+
         case '-': cout<<a<<" - "<<b<<" = "<<a-b<<endl; break;
+
         case '/': cout<<a<<" / "<<b<<" = "<<a/b<<endl; break;
+
         case '*': cout<<a<<" x "<<b<<" = "<<a*b<<endl; break;
 
-        default: cout<<"Enter a valid operator!!"<<endl;
+
+        default: cout<<"Enter a valid operator!! "<<endl;
         
     }
 return 0;
